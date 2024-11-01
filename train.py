@@ -20,7 +20,7 @@ import torch.nn.functional as F
 from network1 import define_G, define_D, GANLoss, get_scheduler, update_learning_rate,rgb_to_y,ContrastLoss
 from MODEL.fdfp_1__t9_fus_g2 import mymodel
 from data import get_training_set, get_test_set
-from visualisation import disp_error_img, save_images
+#from visualisation import disp_error_img, save_images
 
 
 # Training settings
