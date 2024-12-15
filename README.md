@@ -7,3 +7,32 @@ Abstract:Underwater imagery often suffers from issues like color distortion, haz
 
 
 ![Attentive Color Fusion Transformer Network (ACFTNet) for Underwater Image Enhancement](ubaid_.jpg)
+
+
+# Evaluation 
+
+To evaluate the model on different datasets using the provided checkpoints and sample degraded images.
+
+## Dataset and Checkpoint Structure
+
+- **Sample degraded images for testing**: Available in `dataset/dataset_name/`.
+- **Checkpoints for evaluation**: Provided in `checkpoints/dataset-name/`.
+- **Results storage**: After successful execution, the results will be saved in the `results/dataset-name/` folder.
+
+### Folder Overview 
+```
+├── dataset
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── checkpoints
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
+├── results
+│   ├── UIEB
+│   ├── U-45
+│   ├── SQUID
+│   ├── UCCS
