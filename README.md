@@ -67,7 +67,7 @@ Run the following command to evaluate the model on the UCCS dataset:
 python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 ```
-## Traing
+## Training
 1. Structure of data for training should be like
  ```Shell
  uw_data/
