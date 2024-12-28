@@ -87,3 +87,11 @@ python test.py --dataset dataset/UCCS/ --save_path Results/UCCS
 
 ## Citation
 If you find this work helpful, please reference it as follows:
+@inproceedings{wani2025attentive,
+  title={Attentive Color Fusion Transformer Network (ACFTNet) for Underwater Image Enhancement},
+  author={Wani, Mohd Ubaid and Khan, Md Raqib and Kulkarni, Ashutosh and Phutke, Shruti S and Vipparthi, Santosh Kumar and Murala, Subrahmanyam},
+  booktitle={International Conference on Pattern Recognition},
+  pages={308--324},
+  year={2025},
+  organization={Springer}
+}
