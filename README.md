@@ -26,7 +26,7 @@ To evaluate the model on different datasets using the provided checkpoints and s
 ├── dataset
 │   ├── UIEB
 │   ├── U-45
-│   ├── SQUID
+│   ├── C-60
 │   ├── UCCS
 ├── checkpoints
 │   ├── UIEB
@@ -56,10 +56,10 @@ Run the following command to evaluate the model on the U-45 dataset:
 ```
 python test.py --dataset dataset/U-45/ --save_path Results/U-45
 ```
-### SQUID Dataset Evaluation
+### C-60 Dataset Evaluation
 Run the following command to evaluate the model on the SQUID dataset:
 ```
-python test.py --dataset dataset/SQUID/ --save_path Results/SQUID
+python test.py --dataset dataset/C-60/ --save_path Results/SQUID
 ```
 ### UCCS Dataset Evaluation
 Run the following command to evaluate the model on the UCCS dataset:
