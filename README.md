@@ -28,11 +28,7 @@ To evaluate the model on different datasets using the provided checkpoints and s
 │   ├── U-45
 │   ├── C-60
 │   ├── UCCS
-├── checkpoints
-│   ├── UIEB
-│   ├── U-45
-│   ├── C-60
-│   ├── UCCS
+
 ├── results
 │   ├── UIEB
 │   ├── U-45
