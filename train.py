@@ -185,8 +185,8 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
      
 
      #test
-	
-	if not os.path.exists("test_images"):
+	with torch.no_grad():
+		if not os.path.exists("test_images"):
 		os.mkdir("test_images")
 
 	for test_iter, batch in enumerate(testing_data_loader,1):
@@ -205,3 +205,4 @@ for epoch in range(opt.epoch_count, opt.niter + opt.niter_decay + 1):
 		net_g_model_out_path = "checkpoint/{}/netG_model_epoch_{}.pth".format(opt.dataset, epoch)
 		torch.save(my_net, net_g_model_out_path)
 		print("Checkpoint saved to {}".format("checkpoint" + opt.dataset))
+	
